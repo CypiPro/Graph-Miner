@@ -27,6 +27,112 @@
 </head>
 
 <body>
+  <!-- <nav id="tabList" class="nav nav-tabs nav-fill" role="tablist">
+    <a
+      id="upload-tab"
+      class="nav-link active"
+      role="tab"
+      data-bs-toggle="tab"
+      data-bs-target="#upload"
+      aria-controls="upload"
+      aria-selected="true"
+    >
+      Upload
+    </a>
+    <a
+      id="settings-tab"
+      class="nav-link"
+      role="tab"
+      data-bs-toggle="tab"
+      data-bs-target="#settings"
+      aria-controls="settings"
+      aria-selected="false"
+    >
+      Settings
+    </a>
+    <a
+      id="export-tab"
+      class="nav-link"
+      role="tab"
+      data-bs-toggle="tab"
+      data-bs-target="#export"
+      aria-controls="export"
+      aria-selected="false"
+    >
+      Export
+    </a>
+  </nav>
   
+  <div class="tab-content">
+    <div class="tab-pane show active" id="upload">
+      Upload tab content
+
+      <div class="mb-3">
+            <label
+                for="formFile"
+                class="form-label">
+                Select Image to analyse
+            </label>
+            <input
+            class="form-control"
+            type="file"
+            id="formFile"
+            accept=".png, .jpeg"
+            onchange="loadImage()"
+            >
+            <canvas id="canvas"></canvas>
+          </div>
+          <button class="btn bg-secondary-subtle" onclick="cropImage()">Submit</button>
+    </div>
+
+    <div class="tab-pane" id="settings">
+      Settings tab content
+    </div>
+
+    <div class="tab-pane" id="export">
+      Export tab content
+    </div>
+  </div> -->
+  
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Select image
+
+
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Image selection</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <label
+            for="formFile"
+            class="form-label">
+            Select Image to analyse
+          </label>
+          <input
+            class="form-control"
+            type="file"
+            id="formFile"
+            accept=".png, .jpg"
+            onchange="loadImage()"
+          >
+          <canvas id="canvas"></canvas>
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onclick="cropImage()">Submit image</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>

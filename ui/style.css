@@ -1,0 +1,24 @@
+body {
+    max-width: 1200px;
+    margin: auto;
+    background-color: var(--bs-secondary-bg);
+}
+
+.tab-pane {
+    padding: 20px;
+    background-color: var(--bs-body-bg);
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+canvas {
+    max-width: 100%;
+    max-height: 100%;
+
+    /* padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; */
+}
