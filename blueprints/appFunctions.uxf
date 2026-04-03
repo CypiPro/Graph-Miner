@@ -1,0 +1,21 @@
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><element><id>UMLPackage</id><coordinates><x>405</x><y>99</y><w>342</w><h>432</h></coordinates><panel_attributes>Frontend
+--
+bg=green</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>882</x><y>90</y><w>324</w><h>441</h></coordinates><panel_attributes>Backend
+--
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLActor</id><coordinates><x>90</x><y>279</y><w>72</w><h>108</h></coordinates><panel_attributes>Uzytkownik 
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>198</x><y>117</y><w>18</w><h>414</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>135</x><y>306</y><w>81</w><h>27</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>70;10;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>189</x><y>90</y><w>72</w><h>27</h></coordinates><panel_attributes>Interakcja
+style=wordwrap
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>207</x><y>126</y><w>216</w><h>36</h></coordinates><panel_attributes>Wczytaj obraz/obrazy wykresu/ów
+lt=&lt;&lt;-</panel_attributes><additional_attributes>220;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>207</x><y>486</y><w>216</w><h>36</h></coordinates><panel_attributes>Pobierz dane csv
+lt=&lt;&lt;-</panel_attributes><additional_attributes>220;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>738</x><y>153</y><w>162</w><h>36</h></coordinates><panel_attributes>Przeanalizuj obraz
+lt=&lt;&lt;-</panel_attributes><additional_attributes>160;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>207</x><y>405</y><w>216</w><h>45</h></coordinates><panel_attributes>Przeanalizuj obraz
+Wykryj wykres
+lt=&lt;&lt;-</panel_attributes><additional_attributes>220;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>207</x><y>450</y><w>216</w><h>36</h></coordinates><panel_attributes>Zmień widok/podgląd
+lt=&lt;&lt;-</panel_attributes><additional_attributes>220;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>207</x><y>153</y><w>216</w><h>36</h></coordinates><panel_attributes>Zmień tryb analizy (ręczny/auto)
+lt=&lt;&lt;-</panel_attributes><additional_attributes>220;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>207</x><y>225</y><w>216</w><h>36</h></coordinates><panel_attributes>Dodaj punkt na wykresie
+lt=&lt;&lt;-</panel_attributes><additional_attributes>220;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>207</x><y>243</y><w>216</w><h>36</h></coordinates><panel_attributes>Usuń punkt na wykresie
+lt=&lt;&lt;-</panel_attributes><additional_attributes>220;20;10;20</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>216</x><y>207</y><w>189</w><h>117</h></coordinates><panel_attributes>Tryb ręczny
+--
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>207</x><y>270</y><w>216</w><h>36</h></coordinates><panel_attributes>Dodaj wskaźnik osi
+lt=&lt;&lt;-</panel_attributes><additional_attributes>220;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>207</x><y>288</y><w>216</w><h>36</h></coordinates><panel_attributes>Usuń wskaźnik osi
+lt=&lt;&lt;-</panel_attributes><additional_attributes>220;20;10;20</additional_attributes></element></diagram>
